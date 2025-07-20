@@ -28,6 +28,9 @@ void main() {
   print("Set Last Method: ${citySet.last}");
   print("Set isEmpty Method: ${citySet.isEmpty}");
   print("Set isNotEmpty Method: ${citySet.isNotEmpty}");
+  print("Set hashCode Method: ${citySet.hashCode}");
+  
+
   //Single only works when the set has single element
   var name = <String>{"Mridul"};
   print("Set single Method: ${name.single}");
