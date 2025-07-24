@@ -18,8 +18,11 @@ void main(){
   person ['name']='Mridul';
   person ['age']=26;
   person['city']='Meherpur';
-
+  print("Add items to the map by Method Calling");
   person.addAll({'blood': 'AB+'});
+  person.addAll({'blood': 'AB+'});
+  person.remove('age');
+
 
   print(person);
 }
