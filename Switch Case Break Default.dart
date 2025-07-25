@@ -3,8 +3,7 @@ void main() {
 
   switch (result) {
     case 80:
-      print("A+");
-      break;
+      print("A+") ;     break;
 
     case 70:
       print("A");

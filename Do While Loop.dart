@@ -1,8 +1,8 @@
 void main(){
   var result=3;
   var i=0;
-  while(i<result){
+  do{
     print(i+1);
     i++;
-  }
+  }while(i<result);
 }
