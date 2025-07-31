@@ -17,14 +17,12 @@ void main(){
   optionalNamedParameter(10, 20, 30, e: 87,);
 
   //Higher Order Function
-  higherOrderFunction();
+
 
 
 }
 
-higherOrderFunction(){
-  return addTwoValue(33, 34);
-}
+
 
 
 optionalPositionalParameter(a,b,c,[d,e]){
