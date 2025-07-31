@@ -67,4 +67,14 @@ void main() {
   numbers.remove('Mridul');
   print("list.remove()-> Remove value 'Mridul' list\n$numbers");
   print("--------------------------------------------------------------------------\n");
+
+  //List replace methods
+  print("List Replace Methods");
+  print("Before List $city");
+
+  city.replaceRange(0, 2, ['Fenni','Kumarkhali',"ss",'ff']);
+  print("After Replace List: $city");
+
+
+
 }
